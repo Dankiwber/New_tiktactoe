@@ -1,36 +1,56 @@
 # EXPO app for new version of tiktaktoe
 
-In this version of tic-tac-toe you only run with a maximum of three pieces on the board, and when the fourth piece is played your first move disappears. queue data structure, following FIFO (First in first out), all source code logic is in (auth)/app.tsx. have fun!
+## In this version of tic-tac-toe you only run with a maximum of three pieces on the board, and when the fourth piece is played your first move disappears. queue data structure, following FIFO (First in first out), all source code logic is in (auth)/app.tsx. have fun!
 
-## Get started
+## **How to run app on your phone**
 
-1. Install dependencies
+Follow these steps to run the app on your phone:
 
-   ```bash
-   npm install
-   ```
+### 1. Ensure Expo is Installed
 
-2. Start the app
+Make sure `expo` is installed in your project. Run the following command:
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
 ```
+npm install expo
+```
+
+If you prefer Yarn, use:
+
+```
+yarn add expo
+```
+
+### 2. Install Necessary Dependencies
+
+To ensure all required dependencies are installed, run:
+
+```
+npm install
+```
+
+Or, if you are using Yarn:
+
+```
+yarn install
+```
+
+### 3. Start the Project
+
+Once the installation is complete, start your project with:
+
+```
+npx expo start
+```
+
+### 4. Install Expo Go on Your Phone
+
+- Download the **Expo Go** app from the [App Store](https://apps.apple.com/) (iOS).
+- Open the Expo Go app on your phone.
+
+### 5. Connect to the Project
+
+- After running `npx expo start`, a QR code will appear in your terminal or browser.
+- Scan the QR code using the **Expo Go** app on your phone.
+- The app will load and run on your device.
 
 
