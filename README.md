@@ -1,6 +1,6 @@
 # EXPO app for new version of tiktaktoe
 
-## In this version of tic-tac-toe you only run with a maximum of three pieces on the board, and when the fourth piece is played your first move disappears. queue data structure, following FIFO (First in first out), all source code logic is in (auth)/app.tsx. have fun!
+### In this version of tic-tac-toe you only run with a maximum of three pieces on the board, and when the fourth piece is played your first move disappears. queue data structure, following FIFO (First in first out), all source code logic is in (auth)/app.tsx. have fun!
 
 ## **How to run app on your phone**
 
